@@ -1,6 +1,12 @@
 import subprocess
 import sys
 
+def clear_screen():
+    try:
+        os.system('cls' if os.name == 'nt' else 'clear')
+    except Exception as e:
+        print(f"Lỗi khi xóa màn hình: {e}")
+
 def a1():
     return True
 
