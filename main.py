@@ -224,7 +224,7 @@ if chon == '5.7' :
    exec(requests.get('https://raw.githubusercontent.com/Nopermc/ToolGop/refs/heads/main/BT1.yml').text)
    #tool golike
 if chon == '6.1' :  
-    exec(requests.get('https://raw.githubusercontent.com/Khanh23047/Golike/main/golike.py').text)
+    exec(requests.get('https://raw.githubusercontent.com/Nopermc/ToolGop/refs/heads/main/golikett.py').text)
 if chon == '6.2' :
     exec(requests.get('https://raw.githubusercontent.com/Khanh23047/Golike-ig/main/p.py').text)
 if chon == '6.3' :
